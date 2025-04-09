@@ -6,9 +6,9 @@
 
 # **隐私政策**
 
-**更新日期：2021年11月18日**
+**更新日期：2025年04月09日**
 
-**生效日期：2021年11月18日**
+**生效日期：2025年04月09日**
 
 深圳市一点想象科技有限公司（注册地址：深圳市南山区粤海街道麻岭社区高新中二道2号 深圳软件园2栋A302，以下简称“**我们**”）系移动应用程序“冒险手册”（以下简称“冒险手册”）的运营者。我们非常重视保护用户（以下简称“**您**”）的个人信息和隐私。您在使用冒险手册时，我们会收集、使用、保存、共享您的相关个人信息。为呈现我们处理您个人信息的情况，我们特制定《冒险手册隐私政策》（以下简称“**隐私政策**”），我们承诺严格按照本隐私政策处理您的个人信息。
 
@@ -44,7 +44,8 @@
 
 |**设备权限**|**调用权限的目的**|**是否询问**|**用户可否关闭权限**|
 |:---:|:---:|:---:|:---:|
-|网络|连接网络|是|可|
+|网络|连接网络，用于SDK采集数据信息|是|可|
+|获取已安装应用列表信息|用于判断玩家设备上是否安装了修改器、加速器、虚拟机、专用挂、直播软件、VPN软件|是|可|
 
 如您在首次授权开启权限后希望关闭权限，您可以在设备的设置功能中选择关闭权限，从而拒绝我们收集相应的个人信息。
 
@@ -144,9 +145,12 @@
 
 |**SDK名称**|**SDK主体**|**包名称**|**SDK使用目的**|**SDK收集的信息**|**隐私政策链接**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|bugly|深圳市腾讯计算机系统有限公司|com.tencent.bugly|错误信息收集|设备型号、设备品牌、操作系统版本、系统、IP地址、设备IMEI、设备MAC地址、AndroidID、设备IMSI|[查看隐私政策](https://privacy.qq.com/document/preview/fc748b3d96224fdb825ea79e132c1a56)|
+|bugly|深圳市腾讯计算机系统有限公司|com.tencent.bugly|错误信息收集|设备型号、设备品牌、操作系统版本、系统、IP地址、设备IMEI、设备MAC地址、AndroidID、设备IMSI|[查看隐私政策](https://privacy.qq.com/document/preview/fc749b3d96224fdb825ea79e132c1a56)|
 |Taptap SDK|易玩（上海）网络科技有限公司|com.tds.tapdb,com.tds.common|账号登录、数据上报|设备传感器、AndroidID|[查看隐私政策](https://www.taptap.cn/privacy-policy)
-Unity|优三缔科技（上海）有限公司|com.unity3d.player|游戏登录|AndroidID|[查看隐私政策](https://unity.cn/legal/china-privacy-policy)
+Unity|优三缔科技（上海）有限公司|com.unity3d.player|游戏引擎|AndroidID|[查看隐私政策](https://unity.cn/legal/china-privacy-policy)
+GroMore SDK|北京巨量引擎网络技术有限公司|com.bytedance.msdk,bykvm_19do.bykvm_19do.bykvm_if122|广告投放及广告监测归因、反作弊|设备品牌、型号、操作系统版本信息、系统时区、系统语言、设备标识符(AndroidID)、设备序列号(IMEI)、WiFi状态、应用信息、应用列表、运营商信息、设备时区、位置信息、网络设备硬件地址（MAC地址）、IP 地址、WLAN接入点、基站、软件版本号、网络接入方式、类型、状态、网络质量数据、操作、使用、服务日志、屏幕分辨率|[查看隐私政策](https://www.csjplatform.com/terms/gromoresdk-privacy)
+优量汇|深圳市腾讯计算机系统有限公司|com.unity3d.playercom.qq.e,yaq.pro.getVresult|游戏登录广告投放及广告监测归因、反作弊|设备标识符(AndroidID)、应用信息、应用列表AndroidID|[查看隐私政策](https://e.qq.com/optout.htmlhttps://unity.cn/legal/china-privacy-policy)
+腾讯游戏安全ACE手游反外挂SDK|深圳市腾讯计算机系统有限公司|?|为开发者提供游戏安全外挂检测相关能力，防御主流通用功能型外挂|游戏账号、设备型号、系统名称、系统版本、品牌、CPU信息、已安装应用列表信息、国家编码和语言、AndroidID、VPN状态、屏幕分辨率、IDFV、录屏状态|[查看隐私政策](https://down.anticheatexpert.com/docs/ACE-files/wsa/privacy_protocol.pdf)
 
 **五、我们如何保护您的个人信息**
 
